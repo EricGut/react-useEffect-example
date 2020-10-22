@@ -1,0 +1,56 @@
+.title {
+  font-size: clamp(2.5rem, 2.5vh, 5rem);
+}
+
+.tours {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 3em;
+  padding: 2em;
+}
+
+.card {
+  width: 50em;
+  background: #cdd5d5;
+  -webkit-box-shadow: 0 0 1em rgba(0, 0, 0, 0.3);
+          box-shadow: 0 0 1em rgba(0, 0, 0, 0.3);
+  padding: 1em;
+  border-radius: 1em;
+}
+
+.card--img img {
+  width: 100%;
+}
+
+.card--info {
+  width: 100%;
+}
+
+.card--info .name {
+  font-size: 2rem;
+}
+
+.card--info .description {
+  font-size: 1.3em;
+}
+
+.card--info .description {
+  margin-bottom: 1em;
+}
+
+.card--info .price {
+  font-size: 1.5em;
+  opacity: 0.9;
+}

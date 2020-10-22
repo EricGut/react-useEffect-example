@@ -1,0 +1,44 @@
+$card-clr: #cdd5d5;
+
+.title {
+	font-size: clamp(2.5rem, 2.5vh, 5rem);
+}
+
+.tours {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	gap: 3em;
+	padding: 2em;
+}
+
+.card {
+	width: 50em;
+	background: $card-clr;
+	box-shadow: 0 0 1em rgba($color: #000000, $alpha: 0.3);
+	padding: 1em;
+	border-radius: 1em;
+
+	&--img img {
+		width: 100%;
+	}
+
+	&--info {
+		width: 100%;
+		.name {
+			font-size: 2rem;
+		}
+		.description {
+			font-size: 1.3em;
+		}
+		.description {
+			margin-bottom: 1em;
+		}
+		.price {
+			font-size: 1.5em;
+			opacity: 0.9;
+		}
+	}
+}
