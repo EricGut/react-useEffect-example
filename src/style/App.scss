@@ -21,22 +21,20 @@ $card-clr: #cdd5d5;
 	padding: 1em;
 	border-radius: 1em;
 
-	&--img img {
+	&__img img {
 		width: 100%;
 	}
 
-	&--info {
+	&__info {
 		width: 100%;
-		.name {
+		.info__name {
 			font-size: 2rem;
 		}
-		.description {
+		.info__description {
 			font-size: 1.3em;
-		}
-		.description {
 			margin-bottom: 1em;
 		}
-		.price {
+		.info__price {
 			font-size: 1.5em;
 			opacity: 0.9;
 		}

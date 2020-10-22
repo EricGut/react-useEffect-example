@@ -37,13 +37,13 @@ function App() {
               const { id, name, info, image, price } = tour;
               return (
                 <div className="card" key={id}>
-                  <div className="card--img">
+                  <div className="card__img">
                     <img src={image} alt="" />
                   </div>
-                  <div className="card--info">
-                    <strong className="name">{name}</strong>
-                    <p className="description">{info}</p>
-                    <span className="price">{price}€</span>
+                  <div className="card__info">
+                    <strong className="info__name">{name}</strong>
+                    <p className="info__description">{info}</p>
+                    <span className="info__price">{price}€</span>
                   </div>
                 </div>
               );

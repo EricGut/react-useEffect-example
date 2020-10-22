@@ -30,27 +30,24 @@
   border-radius: 1em;
 }
 
-.card--img img {
+.card__img img {
   width: 100%;
 }
 
-.card--info {
+.card__info {
   width: 100%;
 }
 
-.card--info .name {
+.card__info .info__name {
   font-size: 2rem;
 }
 
-.card--info .description {
+.card__info .info__description {
   font-size: 1.3em;
-}
-
-.card--info .description {
   margin-bottom: 1em;
 }
 
-.card--info .price {
+.card__info .info__price {
   font-size: 1.5em;
   opacity: 0.9;
 }
